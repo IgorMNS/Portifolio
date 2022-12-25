@@ -2,11 +2,22 @@
     padding: 0%;
     margin: 0%;
     text-decoration: none;
-    
+    box-sizing: border-box;
 }
-.img_logo{
+body{
+    margin: 0%;
+}
+header{
+    position: fixed;
+    width: 100%;
+    border-bottom: 5px solid black;
+}
+#img_logo{
     width: 281px;
 }
 .img_pessoa_codigo{
     width: 798px;
+}
+.nav{
+    font-size: 1.2rem;
 }
