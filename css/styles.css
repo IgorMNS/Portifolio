@@ -1,4 +1,12 @@
 *{
     padding: 0%;
     margin: 0%;
+    text-decoration: none;
+    
+}
+.img_logo{
+    width: 281px;
+}
+.img_pessoa_codigo{
+    width: 798px;
 }
