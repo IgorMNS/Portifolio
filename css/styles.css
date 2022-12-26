@@ -12,26 +12,27 @@ body{
     color: #006fd6;
 }
 header{
+    padding: 200px;
     position: fixed;
     width: 100%;
-    border-bottom: 5px solid rgb(17, 17, 17);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.589);
 }
 #img_logo{
     width: 281px;
 }
-.img_pessoa_codigo{
-    width: 798px;
+#img_logo:hover{
+    padding: 0px 10px 0px 10px;
 }
 .nav{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 header ul li a{
     opacity: 50%;
 }
 header ul li a:hover{
-    padding-left:4.4px ;
-    font-size: 1.4rem;
+    padding-bottom: 0.1rem;
     opacity: 100%;
+    border-bottom: 2px groove white;
 }
 #sectionFirst{
     padding-top: 110px;
@@ -39,17 +40,32 @@ header ul li a:hover{
     padding-bottom: 200px;
 }
 section h1{
-    font-size: 6rem;
+    font-size: 8rem;
 }
 
 section p{
-    font-size: 2.5rem;
+    font-size: 3rem;
+}
+.piscando{
+    animation: blinkCursor 1000ms infinite normal;
+}
+@keyframes blinkCursor{
+from{
+    color: white;
+}
+to{
+    color: transparent;
+}
 }
 #sectionAbout{
+    border-top: 4px solid rgba(0, 0, 0, 0.356);
+    padding-top: 40px;
     background-color: rgb(27, 27, 34);
+    padding-top: 100px;
     padding-bottom: 1000px;
 }
 #minha_foto{
+    padding: 0px;
     width: 400px;
 }
 #about_inside{
