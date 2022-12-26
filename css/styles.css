@@ -29,12 +29,14 @@ header ul li a{
     opacity: 50%;
 }
 header ul li a:hover{
+    padding-left:4.4px ;
+    font-size: 1.4rem;
     opacity: 100%;
 }
-#sectionAbout{
+#sectionFirst{
     padding-top: 110px;
     background-color: rgb(27, 27, 34);
-    padding-bottom: 1000px;
+    padding-bottom: 200px;
 }
 section h1{
     font-size: 6rem;
@@ -42,4 +44,14 @@ section h1{
 
 section p{
     font-size: 2.5rem;
+}
+#sectionAbout{
+    background-color: rgb(27, 27, 34);
+    padding-bottom: 1000px;
+}
+#minha_foto{
+    width: 400px;
+}
+#about_inside{
+    padding-top: 120px;
 }

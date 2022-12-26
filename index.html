@@ -20,7 +20,7 @@
 <body>
     <header class="p-3 bg-dark">
         <div class="container">
-            <nav class="nav navbar justify-content-space-around">
+            <nav class="nav navbar">
                 <div>
                     <a href="#"><img id="img_logo" class="nav-item" src="img/logodev.svg" alt="minha_logo"></a>
                 </div>
@@ -32,14 +32,25 @@
             </nav>
         </div>
     </header>
-    <section id="sectionAbout">
-        <div class="d-flex justify-content-center align-items-center pt-4">
+    <section id="sectionFirst" class="container-fluid">
+        <div class="d-flex justify-content-around align-items-center pt-4">
             <div class="px-5">
-                <h1><small class="text-white">Olá, me chamo</small> <br> <b class="color_blue_text">Igor Moisés.</b> </h1>
-                <p class="text-white">Estudante de <span class="color_blue_text">front-end.</span></p>
+                <h1><small class="text-white display-2">Olá, sou</small> <br> <b class="color_blue_text">Igor Moisés.</b> </h1>
+                <p class="text-white">Estudante de <span class="color_blue_text"><b>front-end.</b></span></p>
             </div>
-            <div>
+            <div >
                 <img style="width: 680px;" src="img/pessoa_codigo.svg" alt="pessoa_codigo">
+            </div>
+        </div>
+    </section>
+    <section id="sectionAbout">
+        <div class="row justify-content-center">
+            <h2 class="col-1 color_blue_text text-center py-2" style="font-size: 3.5rem;"><b>SOBRE</b></h2>
+        </div>
+        <div id="about_inside">
+            <div  class="row d-flex justify-content-center" >
+                <img class="col-6" id="minha_foto" src="img/foto_perfil.png" alt="minha_foto">
+                <p class="text-white col-6 lead" style="font-size: 2rem;">Tenho 22 anos e além de estudar programação, fiz 3 semestres de engenharia mecânica e atualmente sou designer gráfico. Cursei SAGA e GRACOM (escolas de design gráfico).</p>
             </div>
         </div>
     </section>
