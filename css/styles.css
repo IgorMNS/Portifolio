@@ -43,7 +43,7 @@ section h1{
     font-size: 8rem;
 }
 
-section p{
+#sectionFirst p{
     font-size: 3rem;
 }
 .piscando{
@@ -59,10 +59,9 @@ to{
 }
 #sectionAbout{
     border-top: 4px solid rgba(0, 0, 0, 0.356);
-    padding-top: 40px;
     background-color: rgb(27, 27, 34);
-    padding-top: 100px;
-    padding-bottom: 1000px;
+    padding-top: 180px;
+    padding-bottom: 200px;
 }
 #minha_foto{
     padding: 0px;
@@ -70,4 +69,7 @@ to{
 }
 #about_inside{
     padding-top: 120px;
+}
+#sectionProjects{
+    padding-bottom: 1000px;
 }
