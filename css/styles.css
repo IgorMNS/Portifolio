@@ -12,6 +12,7 @@ body{
     color: #006fd6;
 }
 header{
+    z-index: 2;
     padding: 200px;
     position: fixed;
     width: 100%;
@@ -47,21 +48,21 @@ section h1{
     font-size: 3rem;
 }
 .piscando{
-    animation: blinkCursor 1000ms infinite normal;
+    animation: blinkCursor 900ms infinite;
 }
 @keyframes blinkCursor{
 from{
-    color: white;
+    opacity:0 ;
 }
 to{
-    color: transparent;
+    opacity: 1;
 }
 }
 #sectionAbout{
     border-top: 4px solid rgba(0, 0, 0, 0.356);
     background-color: rgb(27, 27, 34);
     padding-top: 180px;
-    padding-bottom: 200px;
+    padding-bottom: 300px;
 }
 #minha_foto{
     padding: 0px;
@@ -71,7 +72,7 @@ to{
     padding-top: 120px;
 }
 #sectionProjects{
-    padding-bottom: 1000px;
+    padding-bottom: 300px;
 }
 #boxProject{
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(0, 0, 0, 0.356) 0px 2px 6px 2px;
