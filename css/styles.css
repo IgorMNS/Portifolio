@@ -81,6 +81,20 @@ to{
 #boxProject{
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(0, 0, 0, 0.356) 0px 2px 6px 2px;
 }
+#contatos{
+    padding-top: 300px;
+    padding-bottom: 400px;
+    background-color: rgb(27, 27, 34);
+}
+.icon{
+    padding-bottom: 41px;
+    color: white;
+    opacity: 50%;
+    width: 52px;
+}
+.icon:hover{
+    opacity: 100%;
+}
 @media (max-width: 1600px){
     #firstPhoto{
         width: 500px;
