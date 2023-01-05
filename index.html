@@ -68,15 +68,67 @@
             </div>
         </div>
     </section>
-    <section id="sectionAbout" class="container-fluid">
+    <section id="sectionAbout">
         <div class="justify-content-center">
-            <h2 class="color_blue_text text-center py-2" style="font-size: 3.5rem;"><b>SOBRE</b></h2>
-        </div>
-        <div id="about_inside" class="conteiner">
-            <div class="row d-flex justify-content-center" style="display: inline;">
-                <img class="col-6 bg-white" id="minha_foto" src="img/foto_perfil.png" alt="minha_foto">
-                <p class="display-6 text-white col-6 text-justify"><small>Tenho 22 anos e além de estudar programação, fiz 3 semestres de engenharia mecânica e atualmente sou designer gráfico. Cursei SAGA e GRACOM (escolas de design gráfico).</small></p>
+            <h4 class="color_blue_text text-center py-2"><b>SOBRE</b></h4>
+            <div class="d-flex justify-content-center align-items-center">
+                <img class="rounded-circle" src="img/foto_perfil.png" alt="" style="width: 150px;">
+                <p class="display-3 text-white px-5"><b>Um pouco sobre mim...</b></p>
             </div>
+        </div>
+        <div>
+            <div class="container" style="width: 800px; padding-top: 100px;">
+                <div id="aboutGroup" class="d-flex justify-content-center">
+                    <div class="px-3" style="width: 400px;">
+                        <div class="pb-4">
+                            <h3 class="color_blue_text">Perfil :</h3>
+                            <p class="lead text-white">Apaixonado por Design e códigos. Movido totalmente a base de café.</p>
+                        </div>
+                        <div class="pb-4">
+                            <h3 class="color_blue_text">Nome :</h3>
+                            <p class="lead text-white">Igor Moisés</p>
+                        </div>
+                        <div class="pb-4">
+                            <h3 class="color_blue_text">Cargo :</h3>
+                            <p class="lead text-white">Designer Gráfico, Front-end</p>
+                        </div>
+                        <div class="pb-4">
+                            <h3 class="color_blue_text">Email :</h3>
+                            <p class="lead text-white">igormoises909@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="px-4" style="width: 400px;">
+                        <div class="pb-4">
+                            <h3 class="color_blue_text">Skills :</h3>
+                            <div class="pb-5">
+                                <p class="lead text-white">HTML</p>
+                                <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar progress-bar-striped w-100"></div>
+                                </div>
+                            </div>
+                            <div class="pb-5">
+                                <p class="lead text-white">CSS</p>
+                                <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar progress-bar-striped w-75"></div>
+                                </div>
+                            </div>
+                            <div class="pb-5">
+                                <p class="lead text-white">JS</p>
+                                <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar progress-bar-striped w-25"></div>
+                                </div>
+                            </div>
+                            <div class="pb-5">
+                                <p class="lead text-white">React</p>
+                                <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar progress-bar-striped w-0"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </section>
     <section id="sectionProjects" class="container-fluid bg-dark">
@@ -89,7 +141,7 @@
                     <p class="text-black-50" style="font-size: 1.3rem;"><b>Conheça um pouco mais sobre dos gatos</b></p>
                 </div>
             </div>
-            <div id="boxProject" class ="col-4" style="margin: 100px;padding: 0; width:500px ; height: 480px; background-color: rgba(226, 226, 226, 0.39);" >
+            <!--<div id="boxProject" class ="col-4" style="margin: 100px;padding: 0; width:500px ; height: 480px; background-color: rgba(226, 226, 226, 0.39);" >
                 <img src="" alt="" width="500px">
                 <div style="padding:20px; background-color: rgb(226, 226, 226);" >
                     <h4 class="text-dark text-center" style="font-size: 2.5rem;"><b>Em Construção</b></h4>
@@ -103,39 +155,23 @@
                     <p hidden class="text-black-50" style="font-size: 1.5rem;"><b>Conheça um pouco mais sobre dos gatos</b></p>
                 </div>
             </div>
+        --> 
             
         </div>
     </section>
-    <section class="container-fluid" id="contatos">
-        <div class="d-flex justify-content-around">
+    <section class="container-fluid " id="contatos">
+        <div class="d-flex justify-content-center">
             <div>
-                <div>
-                    <h1 class="display-1 text-white pb-5">Entre em contato</h2>
-                    <form>
-                        <div class="form-group">
-                            <div><input class="form-control form-control-lg mb-4" type="text" name="nome" placeholder="Digite seu nome"></div>
-                            <div><input class="form-control form-control-lg mb-4" type="email" name="email" placeholder="Digite seu email" ></div>
-                            <div><textarea class="form-control form-control-lg mb-4" name="emailArea"  rows="3" placeholder="Digite sua mensagem"></textarea></div>
-                            <div><button class="btn btn-light px-5" type="button"><h5>Enviar</h5></button></div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div class="pt-5">
-                <div>
-                    <a href=""><img class="icon" src="img/whatsapp.svg" alt="instagram"></a>
-                </div>
-                <div>
-                    <a href=""><img class="icon" src="img/instagram.svg" alt="instagram"></a>
-                </div>
-                <div>
-                    <a href=""><img class="icon" src="img/linkedin.svg" alt="instagram"></a>
-                </div>
-                <div>
-                    <a href=""><img class="icon" src="img/square-behance.svg" alt="instagram"></a>
-                </div>
-            </div>
-            
+                <h1 class="display-1 text-white pb-5">Entre em contato</h2>
+                <form>
+                    <div class="form-group">
+                        <div><input class="form-control form-control-lg mb-4" type="text" name="nome" placeholder="Digite seu nome"></div>
+                        <div><input class="form-control form-control-lg mb-4" type="email" name="email" placeholder="Digite seu email" ></div>
+                        <div><textarea class="form-control form-control-lg mb-4" name="emailArea"  rows="3" placeholder="Digite sua mensagem"></textarea></div>
+                        <div><button class="btn btn-light px-5" type="button"><h5>Enviar</h5></button></div>
+                    </div>
+                </form>
+            </div>            
         </div>
     </section>
 

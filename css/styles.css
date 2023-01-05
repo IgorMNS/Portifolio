@@ -63,22 +63,17 @@ to{
     padding-top: 180px;
     padding-bottom: 300px;
 }
-#sectionAbout p{
-    background-color: rgb(33, 33, 41);
-    padding: 40px;
-    margin-bottom: 0;
-}
-#minha_foto{
-    padding: 0px;
-    width: 400px;
-}
-#about_inside{
-    padding-top: 120px;
+#aboutGroup p{
+    font-size: 1.5rem;
 }
 #sectionProjects{
     padding-bottom: 300px;
 }
+#persaCat{
+    width: 500px;
+}
 #boxProject{
+    
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(0, 0, 0, 0.356) 0px 2px 6px 2px;
 }
 #contatos{
