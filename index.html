@@ -13,6 +13,8 @@
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <title>Portifólio</title>
 
@@ -109,33 +111,48 @@
                         <div class="pb-4">
                             <h3 class="text-info pb-3">Habilidades :</h3>
                             <div class="pb-5">
-                                <p class="lead text-white">HTML</p>
+                                <div class="d-flex pb-3 align-items-center">
+                                    <i class="fa-brands fa-html5 fa-3x colorHtml"></i>
+                                    <p class="h3 text-white px-3">HTML-5</p>
+                                </div>
                                 <div class="progress"  >
-                                    <div class="progress-bar bg-info progress-bar-striped w-100"></div>
+                                    <div class="progress-bar progress-bar-striped w-100"></div>
                                 </div>
                             </div>
                             <div class="pb-5">
-                                <p class="lead text-white">CSS</p>
+                                <div class="d-flex pb-3 align-items-center">
+                                    <i class="fa-brands fa-css3-alt fa-3x colorCss"></i>
+                                    <p class="h3 text-white px-3">CSS-3</p>
+                                </div>
                                 <div class="progress">
-                                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated w-75"></div>
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated w-75"></div>
                                 </div>
                             </div>
                             <div class="pb-5">
-                                <p class="lead text-white">Bootstrap</p>
+                                <div class="d-flex pb-3 align-items-center">
+                                    <i class="fa-brands fa-bootstrap fa-3x colorBootstrap"></i>
+                                    <p class="h3 text-white px-3">Bootstrap</p>
+                                </div>
                                 <div class="progress">
-                                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated w-75"></div>
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated w-75"></div>
                                 </div>
                             </div>
                             <div class="pb-5">
-                                <p class="lead text-white">JS</p>
+                                <div class="d-flex pb-3 align-items-center">
+                                    <i class="fa-brands fa-square-js fa-3x colorJs"></i>
+                                    <p class="h3 text-white px-3">JavaScript</p>
+                                </div>
                                 <div class="progress">
-                                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated w-25"></div>
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated w-25"></div>
                                 </div>
                             </div>
                             <div class="pb-5">
-                                <p class="lead text-white">React</p>
+                                <div class="d-flex pb-3 align-items-center">
+                                    <i class="fa-brands fa-react fa-3x text-info"></i>
+                                    <p class="h3 text-white px-3">React</p>
+                                </div>
                                 <div class="progress">
-                                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated w-0"></div>
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated w-0"></div>
                                 </div>
                             </div>
                         </div>
@@ -146,32 +163,32 @@
         </div>
     </section>
     <section id="sectionProjects" class="container-fluid bg-dark">
-        <h3 class="text-info text-center ">Portifólio</h3>
-        <p class="display-2 text-white text-center pb-5">Alguns projetos</p>
-        <div class="row justify-content-center">
-            <div id="boxProject" class ="col-4" style="margin: 100px;padding: 0; width:500px ; height: 480px;" >
-                <img src="img/cat_persa.png" alt="gato_persa" width="500px">
-                <div class="text-right" style="padding:20px; background-color: rgb(226, 226, 226);" >
-                    <h4 class="text-dark" style="font-size: 2.5rem;"><b>Raças de gatos</b></h4>
-                    <p class="text-black-50" style="font-size: 1.3rem;"><b>Conheça um pouco mais sobre dos gatos</b></p>
+        <div class="pb-5">
+            <h3 class="text-info text-center ">Portifólio</h3>
+            <p class="display-2 text-white text-center pb-5">Alguns projetos</p>
+        </div>
+        <div class="card-columns container-fluid d-flex justify-content-evenly pt-4">
+            <div class="card bg-dark">
+                <img class="card-img" src="img/cat_persa.png" alt="gato_persa" style="width: 500px;">
+                <div class="card-img-overlay text-center px-5">
+                    <h1 class="card-tittle text-white">Raças de gatos</h1>
+                    <p class="card-subtittle text-white fs-5">Conheça um pouco mais sobre dos gatos</p>
                 </div>
             </div>
-            <!--<div id="boxProject" class ="col-4" style="margin: 100px;padding: 0; width:500px ; height: 480px; background-color: rgba(226, 226, 226, 0.39);" >
-                <img src="" alt="" width="500px">
-                <div style="padding:20px; background-color: rgb(226, 226, 226);" >
-                    <h4 class="text-dark text-center" style="font-size: 2.5rem;"><b>Em Construção</b></h4>
-                    <p hidden class="text-black-50" style="font-size: 1.5rem;"><b>Conheça um pouco mais sobre dos gatos</b></p>
+            <div class="card bg-dark">
+                <img class="card-img" src="img/cat_persa.png" alt="gato_persa" style="width: 500px;">
+                <div class="card-img-overlay text-center px-5">
+                    <h1 class="card-tittle text-white">Raças de gatos</h1>
+                    <p class="card-subtittle text-white fs-5">Conheça um pouco mais sobre dos gatos</p>
                 </div>
             </div>
-            <div id="boxProject" class ="col-4" style="margin: 100px;padding: 0; width:500px ; height: 480px; background-color: rgba(226, 226, 226, 0.39);" >
-                <img src="" alt="" width="500px">
-                <div style="padding:20px; background-color: rgb(226, 226, 226);" >
-                    <h4 class="text-dark text-center" style="font-size: 2.5rem;"><b>Em Construção</b></h4>
-                    <p hidden class="text-black-50" style="font-size: 1.5rem;"><b>Conheça um pouco mais sobre dos gatos</b></p>
+            <div class="card bg-dark">
+                <img class="card-img" src="img/cat_persa.png" alt="gato_persa" style="width: 500px;">
+                <div class="card-img-overlay text-center px-5">
+                    <h1 class="card-tittle text-white">Raças de gatos</h1>
+                    <p class="card-subtittle text-white fs-5">Conheça um pouco mais sobre dos gatos</p>
                 </div>
             </div>
-        --> 
-            
         </div>
     </section>
     <section class="container-fluid " id="contatos">
