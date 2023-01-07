@@ -8,6 +8,18 @@ body{
     margin: 0%;
     background-color: rgb(2, 0, 14);
 }
+body::-webkit-scrollbar {
+    width: 1em;
+}
+   
+body::-webkit-scrollbar-track {
+    background-color: #111116;
+}
+   
+body::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 20px;
+}
 .colorHtml{
     color: #ff5723;
 }
@@ -19,6 +31,15 @@ body{
 }
 .colorJs{
     color: #f58233;
+}
+.effectHover{
+    padding-inline: 40px ;
+    color: white;
+    
+}
+.effectHover:hover{
+    color: cyan;
+    transform: scale(1.1);
 }
 nav{
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.589);
@@ -53,8 +74,16 @@ nav ul li a:hover{
 .piscando{
     animation: blinkCursor 900ms infinite;
 }
+#mobileSectionFirst{
+    padding-bottom: 120px;
+}
 .seta{
     animation: setaMov 1500ms ease infinite;
+}
+@keyframes setaMov{
+    to{        
+        transform: translateY(10px);
+    }
 }
 #descubraMais{
     transition: all 0.5s;
@@ -70,13 +99,8 @@ to{
     opacity: 1;
 }
 }
-@keyframes setaMov{
-    to{        
-        transform: scale(0.85) translateY(10px);
-    }
-}
 #firstPhoto{
-    max-width: 100%;
+    width: 600px;
     height: auto;
 }
 #sectionAbout{
