@@ -62,9 +62,6 @@ nav ul li a:hover{
     background-image: linear-gradient(180deg, #1b1b22 0%, #111116 100%);
     border-bottom: 5px solid cyan;
 }
-#rowSectionFirst{
-    margin: auto;
-}
 #sectionFirst h1{
     font-size: 6rem;
 }
@@ -118,23 +115,33 @@ to{
     padding-top: 150px;
     padding-bottom: 300px;
 }
-.card-img{
-    opacity: calc(0.4);
-}
 .card{
-	top: 0;
-	left: 0;
-	-webkit-transition: all 0.5s ;
-	-moz-transition: all 0.5s ;
-	-o-transition: all 0.5s ;
-	-ms-transition: all 0.5s ;
-	transition: all 0.5s ;
+    overflow: hidden; 	
 }
-.card:hover{
-	transform: scale(1.1);
+.card-img-top{
+    opacity: 50%;
+    transition: all 0.4s;
 }
-#boxProject{
-    
+.card:hover .card-img-top{
+    opacity: 100%;
+    transform: scale(1.1);
+}
+.card .card-body{
+    transition: all 0.4s;
+    transform: translateY(20px);
+}
+.card:hover .card-body{
+    transform: translateY(15px);
+}
+.card-bottom{
+    transform: translateY(50px);
+    transition: all 0.3s; 
+}
+.card:hover .card-bottom{
+    transform: translateY(0px);
+    opacity: 100%;
+}
+#boxProject{ 
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(0, 0, 0, 0.356) 0px 2px 6px 2px;
 }
 #contatos{
