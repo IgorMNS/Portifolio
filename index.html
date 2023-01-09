@@ -41,15 +41,26 @@
         <div class="container justify-content-around">
             <div>
                 <a href="#"><img id="img_logo" class="nav-brand" src="img/logodev.svg" alt="minha_logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navTarget">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
             </div>
-            <div class="collapse navbar-collapse justify-content-end" id="navTarget">
-                <ul class="navbar-nav ">
-                    <li class="nav-item fs-4 mx-5 text-center d-inline"><a class="nav-link" href="#sectionAbout"><h4>Sobre</h4></a></li>
-                    <li class="nav-item fs-4 mx-5 text-center"><a class="nav-link" href="#sectionProjects"><h4>Projetos</h4></a></li>
-                    <li class="nav-item fs-4 mx-5 text-center"><a class="nav-link" href="#contatos"><h4>Contato</h4></a></li>
+            <div class="dropdown">
+                <button class="dropdown-toggle btn btn-lg btn-info" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <ul class="dropdown-menu text-left me-5">
+                    <li class="p-2"><a class="dropdown-item d-flex justify-content-between align-items-center" href="#sectionAbout">
+                        <h4 class="pe-3">Sobre</h4>
+                        <i class="fa-regular fa-address-card fa-2x"></i>
+                    </a></li>
+                    <li><hr class="dropdown-divider "></li>
+                    <li class="p-2"><a class="dropdown-item d-flex justify-content-between align-items-center" href="#sectionProjects">
+                        <h4 class="pe-3">Projetos</h4>
+                        <i class="fa-solid fa-bars-progress fa-2x"></i>
+                    </a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li class="p-2"><a class="dropdown-item dropdown-item d-flex justify-content-between align-items-center" href="#contatos">
+                        <h4 class="pe-3">Contato</h4>
+                        <i class="fa-regular fa-paper-plane fa-2x"></i>
+                    </a></li>
                 </ul>
             </div>
         </div>
@@ -58,15 +69,15 @@
     </nav>
 
     
-    <section id="sectionFirst" class="container-fluid" >
-        <div id="mobileSectionFirst" class="d-flex justify-content-around align-items-center pt-4">
-            <div>
+    <section id="sectionFirst">
+        <div id="mobileSectionFirst" class="container d-flex align-items-center align-items-center mt-4">
+            <div class=" text-md-start text-sm-center col-md-6 col-sm-12">
                 <p class="display-1 text-white">Olá, sou</p>
                 <h1 class="text-info"><b>Igor Moisés.</b></h1>
-                <p id="estudante" class="text-white pt-3">Estudante de <span class="text-info"><b>front-end.</b></span><span class="piscando"> |</span></p>
+                <p id="estudante" class="text-white pt-3 fa-3x">Estudante de <span class="text-info"><b>front-end.</b></span><span class="piscando"> |</span></p>
             </div>
-            <div>
-                <img id="firstPhoto" src="img/pessoa_codigo.png" alt="pessoa_codigo">
+            <div class="col-md-6">
+                <img class="img-fluid" src="img/pessoa_codigo.png" alt="pessoa_codigo">
             </div>
         </div>
         <div class="d-flex justify-content-center">
@@ -74,7 +85,7 @@
             <a class="effectHover" href="https://www.behance.net/igormns" target="_blank"><i class=" fa-brands fa-square-behance fa-4x"></i></a>
             <a class="effectHover" href="https://www.linkedin.com/in/igormns/" target="_blank"><i class=" fa-brands fa-linkedin fa-4x"></i></a>
         </div>
-        <div style="padding-top: 120px; padding-bottom: 84px;">            
+        <div style="padding-top: 120px; padding-bottom: 107px;">            
             <a id="descubraMais" class="nav-link d-flex align-items-center justify-content-center" href="#sectionAbout">
                 <h3 class="text-white fa-2x">Descubra mais</h3>
                 <i class="seta fa-solid fa-angles-down fa-2x text-info px-3"></i>
@@ -94,9 +105,9 @@
                 </div>
             </div>
         </div>
-            <div class="container" style="width: 1200px; padding-top: 100px;">
-                <div id="aboutGroup" class="d-flex justify-content-center">
-                    <div class="px-3" style="width: 500px;">
+            <div class="container" style=" padding-top: 100px;">
+                <div id="aboutGroup" class="row justify-content-center">
+                    <div class="px-3 col-md-6 col-sm-12" >
                         <div class="pb-4">
                             <h3 class="text-info">Perfil :</h3>
                             <p class="lead text-white">Apaixonado por Design e códigos. Movido totalmente a base de café.</p>
@@ -119,7 +130,7 @@
                         </div>
                         
                     </div>
-                    <div class="px-4" style="width: 500px;">
+                    <div class="px-4 col-md-6 col-sm-12">
                         <div class="pb-4">
                             <h3 class="text-info pb-3">Habilidades :</h3>
                             <div class="pb-5">
@@ -171,15 +182,15 @@
                     </div>
                 </div>
             </div>
-            <div class="d-flex justify-content-center">
-                <div class="px-3" style="width: 500px;">
+            <div class="container d-flex justify-content-center">
+                <div class="px-3 col-6">
                     <a href="#contatos" class=" btn btn-info btn-lg">
                         <i class="fa-solid fa-envelope pe-2"></i>
                         <b>Entre em contato</b>
                         
                     </a>
                 </div>
-                <div class="px-4" style="width: 500px;">
+                <div class="px-4 col-6">
                     <button class=" btn btn-outline-info btn-lg"><b>Download CV</b>
                         <i class="fa-solid fa-file-arrow-down ps-2"></i>
                     </button>
